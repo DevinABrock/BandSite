@@ -11,15 +11,14 @@ app.get('/chat', (req,res)=>{
 
 
 let server = app.listen(port, ()=>{
-    console.log(`on port ${port}`);
+    console.log(`Chat on port ${port}`);
 })
 
 let io = socket(server)
 
-// listen for messages coming from client
 io.on('connection', (socket)=>{
-    socket.on('msgFromClient', (clientMsg)=>{ // listens for incoming messages
-        io.emit('msgFromServer', clientMsg) //broadcast back out to all of clients
+    socket.on('msgFromClient', (clientMsg)=>{
+        io.emit('msgFromServer', clientMsg)
     })
 })
 

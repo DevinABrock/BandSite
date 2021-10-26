@@ -1,4 +1,5 @@
 const express = require('express');
+const socket = require('socket.io');
 const app = express();
 const port = 3000;
 // const port = process.env.PORT || 3000;
@@ -16,7 +17,6 @@ app.use(require('./routes/album_page'))
 
 
 
-
 app.listen(port, () =>{
-    console.log(`running on port ${port}`);
+    console.log(`Site on port ${port}`);
 })

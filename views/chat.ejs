@@ -40,25 +40,25 @@
         <div class="chatRight">
             <div class="chatLeftTitle">Messages</div>
             <div class="chatArea">
-                <ul id="message" class="messages"></ul>
+                <ul id="message" class="messages">
+                    
+                </ul>
             </div>
         </div>
 </div>
 
     <script src="https://cdn.socket.io/4.3.2/socket.io.min.js" integrity="sha384-KAZ4DtjNhLChOB/hxXuKqhMLYvx3b5MlT55xPEiNmREKRzeEm+RVPlTnAn0ajQNs" crossorigin="anonymous"></script>
     <script>
-        const socket = io(); //this is the web socket api
+        const socket = io();
         const messages = document.querySelector('#messages')
         const form = document.querySelector('form')
         const chat = document.querySelector('#chat')
 
-        socket.on('msgFromServer', (serverMsg)=>{
-            let liTags = `<li>${serverMsg}</li>` + messages.innerHTML
+        socket.on('msgFromServer', (chatMsg)=>{
+            let liTags = `<li>${chatMsg}</li>` + messages.innerHTML
             messages.innerHTML = liTags
         })
 
-        
-        //emit message to server
         form.addEventListener('submit', (e)=>{
             e.preventDefault();
             socket.emit('msgFromClient', chat.value)

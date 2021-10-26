@@ -200,7 +200,7 @@ body{
 /* Footer Container */
     .footerContainer{
         background-color: rgb(138, 255, 163);
-        height: 100px;
+        height: 300px;
         width: 100%;
         
     }
@@ -217,6 +217,19 @@ body{
         display: flex;
         justify-content: center;
         width: 100%;
+    }
+    .footerTitle2{
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        /* padding-left: 40px; */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .footerText{
+        text-decoration: none;
+        color: gray;
+        font-size: 20px;
     }
     .footerLeft{
         color: rgb(0, 0, 0);
@@ -452,5 +465,6 @@ border-bottom-right-radius: 20px;
     background-color: rgb(231, 231, 231);
 }
 .messages{
-
+    height: 100%;
+    overflow-y: scroll;
 }
