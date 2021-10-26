@@ -1,0 +1,61 @@
+{
+    "albums":[
+        {
+            "name": "Tame Impala",
+            "albumTitle": "InnerSpeaker",
+            "shortname": "innerspeaker",
+            "description": "InnerSpeaker is the debut studio album by Australian musical project Tame Impala. Recorded at a remote beach shack in Western Australia during the winter of 2009, the album was released on 21 May 2010 by Modular Recordings. At the J Awards of 2010, the album won Australian Album of the Year. Innerspeaker was acclaimed by critics for its reminiscence of 1960s psychedelic rock and was recognized as the 83rd Best Album of the Decade So Far by Pitchfork in August 2014. The album peaked at number 4 on the ARIA Charts and was certified platinum in the country. In March 2021, a 4xLP reissue of the album was released to celebrate the album's 10th anniversary.",
+            "artwork": "innerspeaker.png",
+            "tracklist": "1.It Is Not Meant To Be 2.Desire Be Desire Go<br> 3.Alter Ego<br> 4.Lucidity<br> 5.Why Won't You Make Up Your Mind<br> 6.Solitude Is Bliss, 7.Jeremy's Storm<br> 8.Expectation<br> 9.The Bold Arrow Of Time<br> 10.Runaway Houses City Clouds<br> 11.I Don't Really Mind",
+            "releaseDate": "1 April 2010",
+            "length": "53 Minutes, 21 Seconds"
+        },{
+            "name": "Tame Impala",
+            "albumTitle": "Lonerism",
+            "shortname": "lonerism",
+            "description": "Lonerism is the second studio album by Australian musical project Tame Impala, released on 5 October 2012 by Modular Recordings. Like the band's debut studio album, Innerspeaker (2010), Lonerism was written, recorded, performed, and produced by Kevin Parker, with live member Jay Watson contributing on two tracks. Recorded mostly in Perth, Australia, and Paris, France, Lonerism builds on the psychedelic sound of its predecessor and features fewer guitars and more synthesisers and samples. Parker attempted to incorporate his love for pop music into his songwriting for the record through catchier melodies. Many tracks feature ambient sounds recorded by Parker with a dictaphone. The album's theme of isolation is reflected in the album cover, featuring an image of a fenced-off Jardin du Luxembourg in Paris. Lonerism received critical acclaim, and many critics ranked it among the best albums of 2012. It reached number four on the charts in Australia, number 14 in the United Kingdom, and number 34 in the United States. It has sold over 210,000 copies in the United States, and is certified platinum in Australia and silver in the UK. At the 2013 ARIA Awards, Lonerism won Best Rock Album and Album of the Year, while at the 56th Annual Grammy Awards, it was nominated for Best Alternative Music Album. Three singles were released, including \"Elephant\" and \"Feels Like We Only Go Backwards\", which charted in several countries. At the J Awards of 2012, the album won Australian Album of the Year.",
+            "artwork": "lonerism.png",
+            "tracklist": "1.Be Above It<br> 2.Endors Toi<br> 3.Apocalypse Dreams<br> 4.Mind Mischief<br> 5.Music To Walk Home By<br> 6.Why Won't They Talk To Me?<br> 7.Feels Like We Only Go Backwards<br> 8.Keep On Lying 9.Elephant 10.She Just Won't Belive Me<br> 11.Nothing That Has Happend So Far Has Been Anything We Could Control<br> 12.Sun's Coming Up",
+            "releaseDate": "5 October 2012",
+            "length": "51 Minutes, 51 Seconds"
+        },{
+            "name": "Tame Impala",
+            "albumTitle": "Live Versions",
+            "shortname": "liveversions",
+            "description": "Live Versions is the first live album by the Australian musical project Tame Impala, released on 19 April 2014 (Record Store Day) by Modular Recordings.",
+            "artwork": "liveversions.jpg",
+            "tracklist": "1.Endors Toi-Live<br> 2.Why Won't You Make Up Your Mind?-Live<br> 3.Sestri Levante-Live<br> 4.Mind Mischief-Live<br> 5.Desire Be Desire Go-Live<br> 6.Half Full Glass Of Wine-Live<br> 7.Be Above It-Live<br> 8.Feels Like We Only Go Backwards-Live<br> 9.Apocalypse Dreams-Live<br>",
+            "releaseDate": "5 October 2012",
+            "length": "48 Minutes, 8 Seconds"
+        },{
+            "name": "Tame Impala",
+            "albumTitle": "Currents",
+            "shortname": "currents",
+            "description": "Currents is the third studio album by Australian musical project Tame Impala. It was released on 17 July 2015 by Modular Recordings and Universal Music Australia. In the United States it was released by Interscope Records and Fiction Records, while Caroline International released it in other international regions. Like the group's previous two albums, Currents was written, recorded, performed, and produced by primary member Kevin Parker. For the first time, Parker mixed the music and recorded all instruments by himself; the album featured no other collaborators. After the release of the group's previous album, Lonerism (2012), Parker began work on Currents, largely recording at his home studio in Fremantle. He engrossed himself with writing and recording, and in keeping with his reputation as a musical auteur, laboured over the details of each song, ultimately causing the release date to be delayed by two months. In contrast to the psychedelic rock sound of the project's prior work, Currents marks a shift to more dance-oriented music, with more emphasis placed on synthesisers than guitars. Parker was inspired to seek a change out of desire to hear Tame Impala's music played in dance clubs and a more communal setting. Thematically, the record is about the process of personal transformation, which many critics interpreted to be the result of a romantic break-up. The album's cover art depicting vortex shedding is a visualisation of these themes. Currents was preceded by the release of the singles \"Let It Happen\", \"'Cause I'm a Man\" and \"Eventually\". The album became the group's best charting release, debuting at number one in Australia, number three in the United Kingdom, and at number four in the United States. Currents has sold over 120,000 copies in North America as of December 2015. Like its predecessors, the album received critical acclaim, and appeared on various critics' lists of the best albums of 2015. At the 2015 ARIA Music Awards, Currents was awarded Best Rock Album and Album of the Year, and it also received nominations for the Grammy Award for Best Alternative Music Album and the J Award for Australian Album of the Year. In 2020, Rolling Stone ranked Currents 382nd on its list of \"The 500 Greatest Albums of All Time\".",
+            "artwork": "currents.png",
+            "tracklist": "1.Let It Happen<br> 2.Nangs<br> 3.The Moment<br> 4.Yes I'm Changing<br> 5.Eventually<br> 6.Gossip<br> 7.The Less I Know The Better<br> 8.Past Life<br> 9.Disciples 10.'Cause I'm A Man<br> 11.Reality In Motion<br> 12.Love/Paranoia<br> 13.New Person, Same Old Mistakes",
+            "releaseDate": "17 July 2015",
+            "length": "51 Minutes, 11 Seconds"
+        },{
+            "name": "Tame Impala",
+            "albumTitle": "The Slow Rush",
+            "shortname": "theslowrush",
+            "description": "The Slow Rush is the fourth studio album by Australian musical project Tame Impala, released on 14 February 2020. It follows the 2015 album Currents and the 2019 singles \"Patience\" and \"Borderline\", with the latter serving as the first single from the album. Rooted in psychedelic disco music, the album was positively received by critics and reached the top 10 on many record charts around the world, debuting atop the charts in three countries and as well as on the US Alternative and Rock charts. At the ARIA Music Awards of 2020, the album won five categories, ARIA Award for Album of the Year, Best Group, Best Rock Album, Engineer of the Year and Producer of the Year (the latter two for work by Parker). The album also received a nomination for Best Alternative Music Album at the 63rd Annual Grammy Awards, whilst \"Lost In Yesterday\" was nominated for Best Rock Song. In October 2021, the band announced a deluxe box set edition would be released in February 2022, comprising B-sides and remixes of the album.",
+            "artwork": "theslowrush.png",
+            "tracklist": "1.One More year<br> 2.Instant Destiny<br> 3.Borderline<br> 4.Posthumous Forgiveness<br> 5.Breathe Deeper<br> 6.Tomorrow's Dust<br> 7.On Track<br> 8.Lost In Yesterday<br> 9.Is It True<br> 10.It Might Be Time<br> 11.Glimmer<br> 12.One More Hour",
+            "releaseDate": "14 February 2020",
+            "length": "57 Minutes 27 Seconds"
+        }
+    ]
+
+
+
+
+
+
+
+
+
+
+
+}

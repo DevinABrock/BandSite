@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Css Page -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Fancy Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Regular Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="albumsNav">
+        <a href="/" class="albumsNavText">Home</a>
+        <a href="/albums" class="albumsNavText">Albums</a>
+    </div>
+
+
+    <!-- Title -->
+    <div class="artistNameBanner">Tame Impala</div>
+
+
+    <div class="chatContainer">
+        <div class="chatLeft">
+            <form>
+                <div class="chatRightTitle">Say Hi</div>
+                <input type="text" id="chat" class="textbox" placeholder="Enter message here">
+                <input type="submit" class="submitButton">
+            </form>
+        </div>
+
+        <div class="chatRight">
+            <div class="chatLeftTitle">Messages</div>
+            <div class="chatArea">
+                <ul id="message" class="messages"></ul>
+            </div>
+        </div>
+</div>
+
+    <script src="https://cdn.socket.io/4.3.2/socket.io.min.js" integrity="sha384-KAZ4DtjNhLChOB/hxXuKqhMLYvx3b5MlT55xPEiNmREKRzeEm+RVPlTnAn0ajQNs" crossorigin="anonymous"></script>
+    <script>
+        const socket = io(); //this is the web socket api
+        const messages = document.querySelector('#messages')
+        const form = document.querySelector('form')
+        const chat = document.querySelector('#chat')
+
+        socket.on('msgFromServer', (serverMsg)=>{
+            let liTags = `<li>${serverMsg}</li>` + messages.innerHTML
+            messages.innerHTML = liTags
+        })
+
+        
+        //emit message to server
+        form.addEventListener('submit', (e)=>{
+            e.preventDefault();
+            socket.emit('msgFromClient', chat.value)
+        })
+
+    </script>
+</body>
+</html>

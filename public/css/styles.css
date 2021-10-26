@@ -1,0 +1,456 @@
+/* ###Global### */
+
+body{
+    margin: 0px;
+}
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ###Index Page### */
+
+/* banner */
+    .bannerContainer{
+        background-color: black;
+        height: 675px;
+        width: 100%;
+        background-image: url("/images/banner.gif");
+        background-position: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+/* navbar */
+    .navbarContainer{
+        background-color: black;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        opacity: 70%;
+    }
+    .navbarList{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+    }
+    .navItem{
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        opacity: 100%;
+    }
+    .navItem:hover{
+        color: tomato;
+    }
+
+/* Title */
+    .titleContainer{
+        color: white;
+        font-size: 120px;
+        font-family: 'Lobster', cursive;
+    }
+
+/* Button */
+    .artistBioButton{
+        height: 50px;
+        width: 300px;
+        margin-bottom: 100px;
+        font-size: 25px;
+        color: white;
+        background-color: rgb(71, 71, 71);
+        border-radius: 20px;
+    }
+    .artistToursText{
+        text-decoration: none;
+        color: white;
+    }
+
+/* Top Albums */
+    .topAlbumsText{
+        height: 65px;
+        font-size: 40px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        padding-left: 40px;
+    }
+    .topAlbumsContainer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .topAlbumItem{
+        height: 300px;
+        width: 300px;
+        background-color: black;
+        box-shadow: 5px 5px gray;
+    }
+    .topAlbumDescription{
+        width: 300px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .topAlbumView{
+        color: gray;
+        width: 300px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        font-size: 20px;
+        padding-top: 2px;
+    }
+    .topAlbumImage{
+        height: 300px;
+        width: 300px;
+    }
+
+
+/* Color Dividers */
+.colorDivider1{
+    margin-top: 50px;
+    background-color: yellow;
+    width: 100%;
+    height: 25px;
+}
+.colorDivider2{
+    background-color: greenyellow;
+    width: 100%;
+    height: 25px;
+}
+.colorDivider3{
+    background-color: rgb(255, 121, 255);
+    width: 100%;
+    height: 25px;
+}
+
+/* Artist Bio */
+    .bioTitle{
+        height: 65px;
+        font-size: 40px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        padding-left: 40px;
+        /* background-color: gray; */
+    }
+    .bioContainer{
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 10px;
+    }
+    .artistBio{
+        width: 100%;
+        font-size: 20px;
+    }
+    .artistPhotos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 35px;
+        padding-bottom: 30px;
+    }
+    .bioPic{
+        width: 700px;
+        height: 400px;
+        box-shadow: 5px 5px gray;
+    }
+
+/* Dicography Banner */
+    .viewDicoBanner{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .discoBannerImage{
+        width: 95%;
+        height: 70%;
+        background-color: black;
+        background-image: url("/images/view_albums.gif");
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .viewDiscoText{
+        color: white;
+        font-size: 70px;
+        font-family: 'Lobster', cursive;
+    }
+    .viewDiscoText:hover{
+        color: tomato;
+    }
+
+
+/* Footer Container */
+    .footerContainer{
+        background-color: rgb(138, 255, 163);
+        height: 100px;
+        width: 100%;
+        
+    }
+    .footerBottomTextContainer{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+    .footerTitle{
+        color: white;
+        font-size: 60px;
+        font-family: 'Lobster', cursive;
+        /* padding-left: 40px; */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .footerLeft{
+        color: rgb(0, 0, 0);
+    }
+    .footerMiddle{
+        color: rgb(0, 0, 0);
+    }
+    .footerRight{
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+    /* #####Albums Page##### */
+
+/* Banner */
+    .albumsNav{
+        height: 45px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        align-items: center;
+    }
+    .albumsNavText{
+        color: white;
+        padding-right: 60px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .albumsNavText:hover{
+        color: tomato;
+    }
+    .albumsDiscoBanner{
+        width: 90%;
+        height: 65px;
+        background-color: black;
+        color: white;
+        font-size: 100px;
+        font-family: 'Lobster', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("/images/albums_banner.gif");
+        background-position: center;
+        background-attachment: fixed;
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        margin-left: 5%;
+    }
+
+    .artistNameBanner{
+        width: 100%;
+        height: 100px;
+        font-size: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lobster', cursive;
+        margin-top: 20px;
+    }
+    .split{
+        width: 60%;
+        margin-left: 20%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+/* Album List */
+    .albumslist1{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .albumslist2{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 0px;
+    }
+    .albumListItem{
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        box-shadow: 3px 3px gray;
+    }
+    .albumListItem:hover{
+        height: 275px;
+        width: 275px;
+    }
+    .albumListName{
+        height: 50px;
+        width: 250px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .descriptionContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        width: 100%;
+        height: 260px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .desciptionRightContianer{
+        width: 16%;
+    }
+    .descriptionLeftContainer{
+        width: 57%;
+        margin-left: 50px;
+        overflow-y: scroll;
+        height: 75%;
+    }
+    .albumTitle{
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+
+    }
+    .descriptionMiscContainer{
+        width: 20%;
+        margin-left: 60px;
+    }
+    .tracklist{
+        font-size: 25px;
+    }
+
+
+
+
+/* #####Albums Page##### */
+
+/* Banner */
+.albumPageBanner{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+.albumTopInfoContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 310px;
+    width: 100%;
+}
+.albumCover{
+    background-color: black;
+    box-shadow: 5px 5px gray;
+    width: 300px;
+    height: 300px;
+}
+.albumdescription{
+    width: 33%;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+.albumInfoDescription{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.mainAlbumTitle{
+    font-size: 20px;
+}
+
+/* #####Chat##### */
+
+.chatContainer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    margin-top: 45px;
+
+}
+.chatLeft{
+/* background-color: rgb(228, 228, 228); */
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.chatRightTitle{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+.chatLeftTitle{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    margin-left: 60px;
+}
+.chatRight{
+/* background-color:  rgb(200, 200, 200); */
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.textbox{
+    height: 300px;
+    width: 600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 30px;
+}
+.submitButton{
+height: 307px;
+width: 75px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.chatArea{
+    height: 300px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: rgb(231, 231, 231);
+}
+.messages{
+
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Css Page -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Fancy Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Regular Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="albumsNav">
+        <a href="/" class="albumsNavText">Home</a>
+        <a href="/chat" class="albumsNavText">Chat</a>
+    </div>
+
+    
+    <!-- Title -->
+    <div class="artistNameBanner">Tame Impala</div>
+
+
+    <!-- Selection -->
+    <div class="albumslist1">
+        <!-- Loads in album image list -->
+        <% artwork.forEach(art => { %>
+            <img class="albumListItem" src="/images/<%= art %> " alt="Artwork 0">
+            <% }) %>
+    </div>
+
+    <div class="albumslist2">
+        <!-- Loads in album name list -->
+            <% albumTitle.forEach(name => { %>
+                <div class="albumListName"><%= name %></div>
+            <% }) %>
+    </div>
+
+
+<!-- Banner -->
+<!-- <div class="albumsDiscoBanner parallax">Take A Trip</div> -->
+
+
+<!-- Divider -->
+    <div class="split"><hr></div>
+
+
+    <!-- Album Info -->
+    <% albums.forEach(albumObj => { %>
+    <div class="descriptionContainer">
+        <div class="desciptionRightContianer">
+            <img class="albumListItem" src="/images/<%= albumObj.artwork %> " alt="Artwork 0">
+        </div>
+        <div class="descriptionLeftContainer">
+            <a href="/albums/<%= albumObj.shortname %>" class="albumTitle"><%= albumObj.albumTitle %></a>
+            <div class=""><%= albumObj.description %></div>
+        </div>
+        <div class="descriptionMiscContainer">
+            <div class="">Released: <%= albumObj.releaseDate %></div>
+            <div class=""> <%= albumObj.length %></div>
+        </div>
+    </div>
+    <div class="split"><hr></div>
+    <% }) %>
+
+</body>
+</html>
